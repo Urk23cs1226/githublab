@@ -1,0 +1,40 @@
+PS C:\Users\urk23cs1239\Desktop\gitt> git clone https://github.com/joan-URK23CS12/latestrep.git
+Cloning into 'latestrep'...
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done. remote: Compressing objects: 100% (12/12), done.
+remote: Total 19 (delta 3), reused 10 (delta 2), pack-reused
+Receiving objects: 100% (19/19), done.
+Resolving deltas: 100% (3/3), done.
+PS C:\Users\urk23cs1239\Desktop\gitt> git remote add upstream https://github.com/joy-URK23CS1239/latestrep.git
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\urk23cs1239\Desktop\gitt> git remote add upstream latestrep
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\urk23cs1239\Desktop\gitt> cd latestrep
+PS C:\Users\urk23cs1239\Desktop\gitt\latestrep> git remote add upstream https://github.com/joy-URK23CS1239/latestrep.git
+PS C:\Users\urk23cs1239\Desktop\gitt\latestrep> git fetch upstream
+From https://github.com/joy-URK23CS1239/latestrep
+* [new branch] branch-1 -> upstream/branch-1
+* [new branch] branch-2 -> upstream/branch-2
+* [new branch] main -> upstream/main
+* [new branch] new-branch -> upstream/new-branch PS C:\Users\urk23cs1239\Desktop\git\latestrep> git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\urk23cs1239\Desktop\gitt\latestrep> git merge main
+Already up to date.
+PS C:\Users\urk23cs1239\Desktop\gitt\latestrep> git merge upstream
+merge: upstream not something we can merge
+PS C:\Users\urk23cs1239\Desktop\gitt\latestrep> git push origin main
+Everything up-to-date
+PS C:\Users\urk23cs1239\Desktop\gitt\latestrep> git checkout -b cat
+Switched to a new branch 'cat'
+PS C:\Users\urk23cs1239\Desktop\gitt\latestrep> git add.
+PS C:\Users\urk23cs1239\Desktop\gitt\latestrep> git push origin cat
+Total 0 (delta 0), reused 0 (delta 0), pack-reused e
+remote:
+remote: Create a pull request for 'cat' on GitHub by visiting:
+remote: https://github.com/joy-URK23CS1239/latestrep/pull/new/cat
+remote:
+To https://github.com/joy|-URK23CS1239/latestrep.git
+* [new branch] cat -> cat
+PS C:\Users\urk23cs1239\Desktop\gitt\latestrep> git pull origin main
+From https://github.com/joy-URK23CS1239/latestrep
